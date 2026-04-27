@@ -1,2 +1,2 @@
 # estudo-python
-Aprendizado de Python
+Aprendizado de Python na DIO Basic
