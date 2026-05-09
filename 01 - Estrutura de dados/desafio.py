@@ -1,16 +1,12 @@
-def exibir_mensagem():
-    print("Olá mundo!")
+sintoma = input().strip()  # Remove espaços extras
 
-
-def exibir_mensagem_2(nome):
-    print(f"Seja bem vindo {nome}!")
-
-
-def exibir_mensagem_3(nome="Anônimo"):
-    print(f"Seja bem vindo {nome}!")
-
-
-exibir_mensagem()
-exibir_mensagem_2(nome="Guilherme")
-exibir_mensagem_3()
-exibir_mensagem_3(nome="Chappie")
+if sintoma == "dor no peito":
+    print("atendimento imediato")
+elif sintoma == "febre":
+    print("agendar consulta")
+elif sintoma == "dor de cabeça":
+    print("repouso em casa")
+elif sintoma == "falta de ar":
+    print("atendimento imediato")
+else:
+    print("sintoma não reconhecido")
