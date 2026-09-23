@@ -11,7 +11,7 @@ Bootcamp Luizalabs - Back-end com Python - 2º Edição!
  * GitHub
  * Engenharia de Prompt
  * GitHub Copilot
- * POO
+ * P.O.O
  * IA
  * LLMs
 
